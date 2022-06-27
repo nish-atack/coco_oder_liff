@@ -40,12 +40,12 @@ $(function () {
         
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-    var msg1 = `種類：${breed1} \n数量：${num1} 匹) \n受取時間：${time1}`;
-    var msg2 = `種類：${breed2} \n数量：${num2} 匹) \n受取時間：${time2}`; 
-    var msg3 = `種類：${breed3} \n数量：${num3} 匹) \n受取時間：${time3}`;
-    var msg4 = `種類：${breed4} \n数量：${num4} 匹) \n受取時間：${time4}`;         
-    var msg5 = `種類：${breed5} \n数量：${num5} 匹) \n受取時間：${time5}`;
-    var msg6 = `種類：${breed6} \n数量：${num6} 匹) \n受取時間：${time6}`;        
+    var msg1 = `種類：${breed1} \n数量：${num1} 匹 \n受取時間：${time1}`;
+    var msg2 = `種類：${breed2} \n数量：${num2} 匹 \n受取時間：${time2}`; 
+    var msg3 = `種類：${breed3} \n数量：${num3} 匹 \n受取時間：${time3}`;
+    var msg4 = `種類：${breed4} \n数量：${num4} 匹 \n受取時間：${time4}`;         
+    var msg5 = `種類：${breed5} \n数量：${num5} 匹 \n受取時間：${time5}`;
+    var msg6 = `種類：${breed6} \n数量：${num6} 匹 \n受取時間：${time6}`;        
         
      if (num1 >= 1) {
          msg=msg1
