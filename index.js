@@ -44,7 +44,7 @@ $(function () {
               [breed6,num6,time6]]
         
   for(var i=0;i<6;i++){
-           if(kk[i][1] >= 40) {
+           if(kk[i][1] >= 1) {
          var msg = "種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2];      
            }else{
     }
