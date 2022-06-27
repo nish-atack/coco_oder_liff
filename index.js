@@ -26,8 +26,12 @@ $(function () {
     });
     
     
-    
-  
+});
+
+
+
+$(function () {
+   
        // 送信
     $('#form2').submit(function () {
         var reasons = $('textarea[name="reasons"]').val();
@@ -54,7 +58,6 @@ $(function () {
     
     
 });
-
 
 
 
