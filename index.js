@@ -2,7 +2,7 @@ var params = (new URL(document.location)).searchParams;
 var key = params.get('key');
 
 $(function () {
-    // 送信1
+    // 送信
     $('form').submit(function () {
         var reasons = $('textarea[name="reasons"]').val();
         var time0 = $('input[name="time1"]').val();
@@ -24,8 +24,11 @@ $(function () {
 
         return false;
     });
-    
-
-    
-    
 });
+
+
+
+
+
+
+
