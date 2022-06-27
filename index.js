@@ -36,36 +36,24 @@ $(function () {
   //var breed = obj.filter(function(input) {
   //return input.name.match(/breed/);});
    
-       
+    var kk = [[breed1,num1,time1],
+              [breed2,num2,time2],
+              [breed3,num3,time3],
+              [breed4,num4,time4],
+              [breed5,num5,time5],
+              [breed6,num6,time6]]
         
-        
-        //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-    var msg1 = `種類：${breed1} \n数量：${num1} 匹 \n受取時間：${time1}`;
-    var msg2 = `種類：${breed2} \n数量：${num2} 匹 \n受取時間：${time2}`; 
-    var msg3 = `種類：${breed3} \n数量：${num3} 匹 \n受取時間：${time3}`;
-    var msg4 = `種類：${breed4} \n数量：${num4} 匹 \n受取時間：${time4}`;         
-    var msg5 = `種類：${breed5} \n数量：${num5} 匹 \n受取時間：${time5}`;
-    var msg6 = `種類：${breed6} \n数量：${num6} 匹 \n受取時間：${time6}`;        
-        
-     if (num1 >= 1) {
-         msg=msg1
-    }else if(num2 >= 1) {
-        msg=msg2
-    }else if(num3 >= 1) {
-        msg=msg3
-    }else if(num4 >= 1) {
-        msg=msg4
-    }else if(num5 >= 1) {
-        msg=msg5
-    }else if(num6 >= 1) {
-        msg=msg6
+  for(var i=0;i<6;i++){
+           if(kk[i][1] >= 40) {
+         var msg = "種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2];      
+           }else{
     }
-        
-        
-        
-        
-        
+
         sendText(msg);
+
+  }
+    
+    
 
         return false;
     });
