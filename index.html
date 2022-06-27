@@ -1,0 +1,148 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>メダカ予約システム</title> -->
+    <title>メダカ予約注文TOP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_spinner.css">
+  <link rel="stylesheet" href="style_modal.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+  </head>
+
+
+
+  <div class="box fadeIn">
+
+
+  <body>
+    </header>
+
+    <main>
+      <section id="about" class="wrapper">
+        <h2 class="section-title">Cocoメダカ予約注文システム</h2>
+        <div class="content">
+
+
+           
+        </div>
+      </section>
+
+
+
+
+<section id="bicycle" class="wrapper">
+
+        <ul>
+          <li>
+
+          <!-- モーダル（ポップアップ）ボタン -->
+          <p class="js_modalBtnWrap"><a href="" class="js_modalBtnCont" data-modal-btn="modal01"><img src="youkihi.jpg" ></a></p>
+            <h3 class="content-title">楊貴妃</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+            
+            
+
+            
+          <li>
+  
+          <!-- モーダル（ポップアップ）ボタン -->
+          <p class="js_modalBtnWrap"><a href="" class="js_modalBtnCont" data-modal-btn="modal02"><img src="orochi.jpg" ></a></p>
+            <h3 class="content-title">オロチ</h3>
+            <p>20220621</p>
+          </li>
+            
+            
+            
+      
+<!-- モーダル（ポップアップ）の内容 -->
+        <div class="js_modalWrap" data-modal-cont="modal01">
+          <div class="js_modalBG"></div>
+          <div class="js_modalContInner">
+            <span class="js_modalClose"></span>
+             <p><img src="youkihi.jpg"></p>
+ 
+   <p>
+<form>
+<input type="hidden" name="breed" value="楊貴">
+<h4>希望する数を入力してください<br></h4>
+<h4><div class="spinner-container">
+  <span class="spinner-sub disabled">-</span>
+  <input class="spinner" type="number" min="0" max="11" value="0" name='num1'>
+  <span class="spinner-add">+</span>
+</div>
+<input type="date" name="time2"><br></h4>
+<h5><div><input type="submit" value="Send Request"></div></h5>
+</form>
+
+</p>
+            </div>
+        </div>           
+            
+            
+            
+            
+            
+ <!-- モーダル（ポップアップ）の内容 -->
+        <div class="js_modalWrap" data-modal-cont="modal02">
+          <div class="js_modalBG"></div>
+          <div class="js_modalContInner">
+            <span class="js_modalClose"></span>
+             <p><img src="orochi.jpg"></p>
+ 
+   <p>
+<form>
+<input type="hidden" name="breed2" value="オロチ">
+<h4>希望する数を入力してください<br></h4>
+<h4><div class="spinner-container">
+  <span class="spinner-sub disabled">-</span>
+  <input class="spinner" type="number" min="0" max="11" value="0" name='num2'>
+  <span class="spinner-add">+</span>
+</div>
+<input type="date" name="time1"><br></h4>
+<h5><div><input type="submit" value="Send Request"></div></h5>
+</form>
+
+</p>
+            </div>
+        </div>
+
+ </div>
+
+    
+    
+    
+    
+</ul>
+
+
+</section>
+    </main>
+</div>
+
+    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+    <script src="liff.js"></script>
+    <script src="index.js"></script>
+    <script src="index_modal.js"></script>
+    <script src="spinner.js"></script>
+<script src="style_modal.js"></script>
+</body>
+
+</html>
