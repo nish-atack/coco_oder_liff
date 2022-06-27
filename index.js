@@ -1,13 +1,19 @@
 var params = (new URL(document.location)).searchParams;
 var key = params.get('key');
 
-$(function () {
-    // 送信
-    $('#form1').submit(function () {
         var reasons = $('textarea[name="reasons"]').val();
         var time0 = $('input[name="time1"]').val();
         var num1 = $('input[name="num1"]').val();
         var breed = $('input[name="breed"]').val();
+
+
+$(function () {
+    // 送信
+    $('#form1').submit(function () {
+       // var reasons = $('textarea[name="reasons"]').val();
+       // var time0 = $('input[name="time1"]').val();
+      //  var num1 = $('input[name="num1"]').val();
+       // var breed = $('input[name="breed"]').val();
         
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
