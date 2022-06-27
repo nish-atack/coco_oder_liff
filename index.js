@@ -40,7 +40,7 @@ $(function () {
         
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-    var msg1 = `種類：\n${breed1}(${num1}) \n$受取時間：{time1}`;
+    var msg1 = `種類：${breed1}(${num1} 匹) \n受取時間：${time1}`;
     var msg2 = `ご注文内容：\n${breed2} \n${num2} \n${time2}`;    
     var msg3 = `ご注文内容：\n${breed3} \n${num3} \n${time3}`;
     var msg4 = `ご注文内容：\n${breed4} \n${num4} \n${time4}`;          
