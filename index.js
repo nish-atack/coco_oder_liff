@@ -58,7 +58,7 @@ $(function () {
   }
         
     sendText(msg);    
-
+Thread.sleep(500);
     });
 });
 
