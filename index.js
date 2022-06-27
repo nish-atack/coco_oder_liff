@@ -59,6 +59,7 @@ $(function () {
         
     sendText(msg);    
 
+        return false;
     });
 });
 
