@@ -3,7 +3,7 @@ var key = params.get('key');
 
 $(function () {
     // 送信1
-    $('#form1').submit(function () {
+    $('#form1 :input').submit(function () {
         var reasons = $('textarea[name="reasons"]').val();
         var time0 = $('input[name="time1"]').val();
         var num1 = $('input[name="num1"]').val();
