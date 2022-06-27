@@ -49,15 +49,15 @@ $(function () {
         
      if (num1 >= 1) {
          msg=msg1
-    }else if(num1 >= 1) {
+    }else if(num2 >= 1) {
         msg=msg2
-    }else if(num1 >= 1) {
+    }else if(num3 >= 1) {
         msg=msg3
-    }else if(num1 >= 1) {
+    }else if(num4 >= 1) {
         msg=msg4
-    }else if(num1 >= 1) {
+    }else if(num5 >= 1) {
         msg=msg5
-    }else if(num1 >= 1) {
+    }else if(num6 >= 1) {
         msg=msg6
     }
         
