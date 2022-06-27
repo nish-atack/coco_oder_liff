@@ -39,7 +39,7 @@ $(function () {
     
         
         
-    
+    msg={};
         
         
         
@@ -48,7 +48,7 @@ $(function () {
               [breed3,num3,time3],
               [breed4,num4,time4],
               [breed5,num5,time5],
-              [breed6,num6,time6]]
+              [breed6,num6,time6]];
         
   for(var i=0;i<6;i++){
            if(kk[i][1] >= 1) {
@@ -58,7 +58,7 @@ $(function () {
   }
         
     sendText(msg);    
-Thread.sleep(500);
+
     });
 });
 
