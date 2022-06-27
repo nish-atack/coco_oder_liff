@@ -46,7 +46,26 @@ $(function () {
     var msg4 = `ご注文内容：\n${breed4} \n${num4} \n${time4}`;          
     var msg5 = `ご注文内容：\n${breed5} \n${num5} \n${time5}`;
     var msg6 = `ご注文内容：\n${breed6} \n${num6} \n${time6}`;        
-        sendText(msg1);
+        
+     if (num1 >= 1) {
+         msg=msg1
+    }else if(num1 >= 1) {
+        msg=msg2
+    }else if(num1 >= 1) {
+        msg=msg3
+    }else if(num1 >= 1) {
+        msg=msg4
+    }else if(num1 >= 1) {
+        msg=msg5
+    }else if(num1 >= 1) {
+        msg=msg6
+    }
+        
+        
+        
+        
+        
+        sendText(msg);
 
         return false;
     });
