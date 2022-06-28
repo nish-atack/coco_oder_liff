@@ -54,12 +54,11 @@ $(function () {
            if(kk[i][1] >= 1) {
          msg = "種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2];  
        
-              }else{
-
-    }
-      
      sendText(msg); 
+               
+      
          return false;
+              }
   }
         
      
