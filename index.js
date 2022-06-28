@@ -51,7 +51,7 @@ $(function () {
               [breed6,num6,time6]];
         
         
-       // sendText(kk)
+       sendText(kk)
         
   for(var i=0;i<6;i++){
            if(kk[i][1] >= 1) {
