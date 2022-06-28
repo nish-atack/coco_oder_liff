@@ -61,7 +61,7 @@ $(function () {
         
         
         
-        sendText(msg); 
+        sendText(msg[1]); 
            
         return false;
         
