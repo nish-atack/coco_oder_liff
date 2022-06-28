@@ -60,7 +60,7 @@ $(function () {
   }
         
         
-        sendText(String(msg)); 
+        sendText(String(msg).replace("," "")); 
       
         return false;
         
