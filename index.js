@@ -60,9 +60,8 @@ $(function () {
   }
         
         
-        
-        sendText(msg[1]); 
-           
+        sendText(msg[1].toString()); 
+      
         return false;
         
     });
