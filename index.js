@@ -54,7 +54,7 @@ $(function () {
  msg =[]
  for(var i=0;i<kk.length;i++){
            if(kk[i][1] >= 1) {
-         msg[i] = ["種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2]];  
+         msg[i] = ["種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2] + "\n"];  
            }else{
     }
   }
