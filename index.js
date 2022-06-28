@@ -55,10 +55,11 @@ $(function () {
          let msg = "種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2];  
        
               }
+      
+     sendText(msg); 
+      
   }
         
-         
-     sendText(msg); 
         return false;
     });
 });
