@@ -60,7 +60,7 @@ $(function () {
   }
         
         
-        sendText(msg[1].toString()); 
+        sendText(msg); 
       
         return false;
         
