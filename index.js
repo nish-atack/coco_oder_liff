@@ -57,10 +57,10 @@ $(function () {
               }
       
      sendText(msg); 
-      
+         return false;
   }
         
-        return false;
+     
     });
 });
 
