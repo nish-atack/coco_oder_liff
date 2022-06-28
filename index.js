@@ -60,7 +60,7 @@ $(function () {
   }
         
         
-        sendText(msg); 
+        sendText(String(msg)); 
       
         return false;
         
