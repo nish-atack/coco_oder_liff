@@ -1,6 +1,21 @@
 var params = (new URL(document.location)).searchParams;
 var key = params.get('key');
 
+  //const sheet     = SpreadsheetApp.getActiveSpreadsheet();   20220630 変更
+  // 2. ここでは、デフォルトの「シート1」の名前が書かれているシートを呼び出
+// const sheet     = SpreadsheetApp.openById("1i1AjqqS97BoFiYVAtE6Tr289uPj5nvhrKQo20JfoBOc");
+  const sheet     = SpreadsheetApp.openById("1xVJSbo6wOgy1DR0-iryS56f7vAppMdo51q-Do58fjLs");
+ const listSheet = sheet.getSheetByName("temp");
+ const listSheet_log = sheet.getSheetByName("log");
+const listSheet_medaka = sheet.getSheetByName("medaka");
+  const listSheet_user = sheet.getSheetByName("user_info");
+  //const listSheet = sheet.getSheetByName("log");
+let dat = listSheet.getDataRange().getValues(); //受け取ったシートのデータを二次元配列に取得
+let dat_user = listSheet_user.getDataRange().getValues();
+
+
+
+
 $(function () {
     // 送信
     $('form').submit(function () {
@@ -52,7 +67,10 @@ $(function () {
         
       
  msg =[]
-        
+
+
+let ppn=[]
+
 for(var i=0;i<kk.length;i++){
            if(kk[i][1] >= 1) {
 
