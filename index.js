@@ -52,12 +52,19 @@ $(function () {
         
       
  msg =[]
- for(var i=0;i<kk.length;i++){
+        
+for(var i=0;i<kk.length;i++){
            if(kk[i][1] >= 1) {
-         msg =msg + ["種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n受取時間：" + kk[i][2]] + "\n"+ "============================="+ "\n"; 
+
+let medaka_price=listSheet_medaka.getRange(i+2, 3).getValue();
+  ppn[i]=medaka_price;
+  msg =msg + ["種類："+ kk[i][0] + "\n数量：" + kk[i][1] + "\n価格：" + medaka_price + "円"] + "\n"+ "============================="+ "\n"  
            }else{
     }
-  }
+  }  
+        
+        
+
         
         
         sendText(String(msg)); 
